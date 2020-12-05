@@ -36,19 +36,33 @@ public class LabRoom {
 	public int getComputer() {
 		return computer;
 	}
-	
+	/*
 	public String toString() {
 		return String.format("Labroom has %d chairs, %d tables and %d computers.", getChair(), getTable(), getComputer());
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		LabRoom labroom1 = new LabRoom(20,20,20);   // create object of LabRoom
-		LabRoom labroom2 = new LabRoom(20,18,15);	// create object of LabRoom
-		
-		System.out.println(labroom1);
-		System.out.println(labroom2);
-
+	*/
+	public void print() {
+		System.out.println("LabRoom has "+"Chair: "+getChair()
+				+ ", Table: "+getTable() + " and Computer: "+getComputer());
 	}
-
+	
+	public void addChair(int number) {
+		this.chair += number;
+	}
+	public void addTable(int number) {
+		this.table += number;
+	}
+	public void addComputer(int number) {
+		this.computer += number;
+	}
+	
+	public void removeChair(int number) {
+		this.chair -= number;
+	}
+	public void removeTable(int number) {
+		this.table -= number;
+	}
+	public void removeComputer(int number) {
+		this.computer -= number;
+	}
 }
