@@ -1,4 +1,3 @@
-
 public class Box {
 	
 	private double height;
