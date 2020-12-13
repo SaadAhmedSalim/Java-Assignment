@@ -1,0 +1,12 @@
+Question 5 Solution
+
+Code 1 will work.
+Code 2 won't because it fails to identify functions correctly as both number of parameters and types of parameters are same.
+
+Question 6 Solution
+
+No Parameters
+int a : 20
+int b : 30
+10
+123.25
