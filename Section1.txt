@@ -1,0 +1,45 @@
+Question 1
+
+a) Mention a problem in Structured Programming.
+
+Answer: 
+
+1. It almost entirely produces the instructions necessary to solve a particular problem.
+2. It is difficult to reuse for other projects like top-down program design tends to produce a unique design. Another issue is it takes lots of effort and time.
+3. It has some problems like solutions cannot be expressed easily in sequence of instructions.
+
+b) What are the different members in the class?
+
+Answer:
+
+A class can have three kinds of members.
+-fields 
+-methods
+-nested classes and nested interfaces
+Fields are data variables which determine the status of the class or an object. Example: If we have a Box class, our fields will be height, width etc.
+Methods allow us to modifiy the status of an object or access the value of the data member. Example: We can access the fields of the Box class and change the value.
+We can also do nested classes and interfaces in Java.
+
+c) What are the special features of a Constructor function?
+
+Answer: 
+
+The special features are :-
+- It called when new object created.
+- It has default constructor if not specified.
+- It is useful for initialization.
+- The Constructor has the same name of the class
+- There is no return type here.
+- It must be declared public or default.
+
+d) What is function overloading? How are different overloaded functions identified? Explain with examples and mention any advantages.
+
+Answer: 
+
+Function overloading refers to using the same thing for different purposes. This process of using two or more functions with the same name but different in the signature is called function overloading.
+In Java, it differs in number of parameter and/or the type of input parameters. It makes a method unique. Although, return type alone cannot differentiate.
+Example: void myFunction()
+         void myFunction(int a)
+         void myFunction(double a)
+Advantages: when it doesn't find exact input type, it tries for the best match by converting the data types and the sequence of convertation is integer->float->double.
+
