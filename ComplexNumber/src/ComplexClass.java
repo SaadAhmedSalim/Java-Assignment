@@ -6,7 +6,7 @@ public class ComplexClass {
 	public ComplexClass(double real, double imaginary){
 		realNumber = real;
 		imaginaryNumber = imaginary;
-		System.out.println("It has two parameters");
+		//System.out.println("It has two parameters");
 	}
 	
 	public ComplexClass() {
