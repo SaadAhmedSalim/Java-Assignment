@@ -1,12 +1,13 @@
+<p align="center">
 <img src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>
+</p>
+<div>   
+   <h1 align="center">Java-Assignment</h1>   
+   <h2 align="center">CSE 215</h2>   
+   <h3 align="center">North South University</h3>   
+</div>
 
-# Java-Assignment
-
-## CSE 215
-
-### North South University
-
-<p align="left">
+<p align="center">
    <img src="https://komarev.com/ghpvc/?username=saadahmedsalim&label=Views&color=brightgreen&style=plastic&label=PROFILE+VIEWS" alt="saadahmedsalim" /><br>
 </p>
 
