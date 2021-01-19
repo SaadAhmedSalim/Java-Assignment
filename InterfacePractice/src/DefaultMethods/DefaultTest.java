@@ -9,6 +9,7 @@ public class DefaultTest {
 		System.out.println(s.getString());
 //		Default d = s;
 //		System.out.println(d.getString());
+//		System.out.println(s.statics());
 
 	}
 
