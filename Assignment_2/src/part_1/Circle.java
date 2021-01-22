@@ -28,5 +28,10 @@ public class Circle extends Shape{
 		double area = 3.14 * (radius * radius); 
 		System.out.println(String.format("Circle Area: %.2f ", area));		
 	}
+	public static void main(String[] args) {
+		Shape c = new Circle(1,"Circle");
+		
+		c.area();
+	}
 
 }
